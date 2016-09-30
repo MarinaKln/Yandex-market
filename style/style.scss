@@ -391,3 +391,132 @@ a {
     height: 340px;
   }
 }
+
+.footer-main, .footer-bottom {
+  background: #f6f5f3;
+}
+.footer-main-content {
+  display: flex;
+  width: 1080px;
+  margin: auto;
+  justify-content: space-between;
+  a {
+  color: #666;
+  line-height: 2;
+  white-space: nowrap;
+  }
+}
+.footer-top {
+  background: #e4eeff;
+}
+
+.footer-main_for-users, .footer-main_for-shops {
+  a {
+    display: block;
+  }
+}
+.footer-top-content {
+  padding: 21px;
+  display: flex;
+  font-size: 15px;
+  width: 1080px;
+  margin: auto;
+  div {
+    background: url("../svg/footer/letter.svg") no-repeat;
+    padding: 4px 20px 0 65px;
+  }
+  input {
+    height: 20px;
+    width: 267px;
+    padding: 5px;
+    border: 1px solid #a6bde8;
+    border-right-color: transparent;
+    vertical-align: bottom;
+    &::-webkit-input-placeholder {
+      font-size: 15px;
+      color: #999
+    }
+  }
+  button {
+    background: #dbe7fb;
+    border-radius: 0 3px 3px 0;
+    line-height: 30px;
+    outline: none;
+    border: 1px solid #a6bde8;
+    font-size: 15px;
+    padding: 0 18px;
+    cursor: pointer;
+    &:hover {
+      border-color: #4183c4;
+    }
+  }
+}
+.footer-bottom {
+  border-top: 1px solid #e9e9e8;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  margin: auto;
+  a {
+    color: #8792a8;
+    line-height: 3;
+  }
+  a:hover {
+    color: red;
+    cursor: pointer;
+  }
+}
+
+.footer-bottom_middle {
+  a {
+    margin: 10px;
+  }
+}
+
+.footer-menu_item:hover  {
+    color: red;
+    cursor: pointer;
+  }
+
+
+.footer-main_for-users, .footer-main_for-shops {
+  span {
+    font-size: 15px;
+    line-height: 3;
+  }
+}
+
+.footer-main_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer-main_top {
+  font-size: 11px;
+  line-height: 1.4em;
+  color: #999;
+}
+
+.footer-main_bottom {
+  color: #999;
+  div {
+    line-height: 5;
+  }
+}
+
+.google-play_link {
+  margin-right: 8px;
+  padding: 20px 75px;
+  background: url("../images/footer/google_play.png") 50% 50% no-repeat;
+  background-size: contain;
+}
+
+.app-store_link {
+  padding: 20px 75px;
+  background: url("../images/footer/app_store.png") 50% 50% no-repeat;
+  background-size: contain;
+}
